@@ -132,38 +132,52 @@ header .container {
     text-align: center;
     font-size: 30px;
     display: inline-block;
+    padding-bottom: 2%;
 } 
 
-.equipo p {
+.Nuestro{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
 
-    padding: 4%;
+
+
+.Nuestro .Estudiantes {
+    width: 22%;
+    margin-left: 8%;
+    margin-bottom: 5px;
+    
+    
+}
+ .Nuestro .Estudiantes img {
     width: 50%;
-    text-align: center;    
+    padding: 3%;
+    margin-left: 20%;
+ }
 
-}
-
-.service > i {
-    font-size: 60px;
-}
-.service .subService {
-    margin-top: 3%;
-    margin-bottom: 2%;
-    color: #ff004e;
-    font-size: 24px;
-}
-.service {
-    width: 33%;
-    height: auto;
-    display: inline-block;
+.Nuestro .Estudiantes p {
+    display:flexbox;
+    width: 90%;
+    padding: 8%, 0%;
+    background-color: #0e1f87;
+    color: #ffeeee;
+    margin-right: 0%;   
+    text-decoration: none;
     text-align: center;
-    padding: 10px;
 }
-.service > p{
-    font-size: 20px;
-}
-.estudiante1{
 
-    width: 100px|;
-    height: 100px;
+/*************footer******/
 
-}
+
+.footer {
+    display:flex;
+    text-align: right;
+    width: 100%;
+    height: 150px;
+    background: #0e1f87;
+    color: #ffffff;
+    margin-top: 1%;
+    overflow-x: auto;}
